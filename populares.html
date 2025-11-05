@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmes Populares</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="populares.html">Popular</a>
+      <a href="recomendados.html">Recomendado</a>
+      <a href="curtidos.html">Curtido</a>
+    </nav>
+  </header>
+
+  <main id="lista-popular"></main>
+
+  <script src="script.js"></script>
+  <script>
+    loadList("popular_movies", "lista-popular");
+  </script>
+</body>
+</html>
