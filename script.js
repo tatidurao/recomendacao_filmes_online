@@ -1,4 +1,4 @@
-const apiBase = "https://560adaf73883.ngrok-free.app"; // substitua pelo link gerado pelo ngrok
+const apiBase = "https://6e456367f813.ngrok-free.app"; // substitua pelo link gerado pelo ngrok
 
 const movieContainer = document.getElementById("movieContainer");
 const actionButtons = document.getElementById("actionButtons");
@@ -92,3 +92,4 @@ didNotWatchBtn.addEventListener("click", () => sendAction("/did_not_watch"));
 
 // Inicializa na tela principal
 loadMovies("/moveis", true);
+
